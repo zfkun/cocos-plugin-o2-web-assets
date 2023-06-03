@@ -1,0 +1,25 @@
+{
+    "name": "o2-web-assets",
+    "title": "i18n:o2-web-assets.title",
+    "package_version": 2,
+    "version": "1.0.0",
+    "author": "zfkun",
+    "description": "i18n:o2-web-assets.description",
+    "license": "ISC",
+    "contributions": {
+        "builder": "./dist/builder.js"
+    },
+    "scripts": {
+        "watch": "tsc --build ./tsconfig.json -w",
+        "build": "rm -rf ./dist && tsc --build ./tsconfig.json",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "@types/fs-extra": "^5.0.4",
+        "@types/node": "^14.5.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zfkun/cocos-plugin-o2-web-assets.git"
+    }
+}
