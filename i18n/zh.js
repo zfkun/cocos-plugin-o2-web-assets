@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Rax Web 项目发布构建处理",
+  title: "O2 平台 Web + Assets 项目发布构建处理",
   options: {
     removeHtmlFile: "删除 *.html 文件",
     removeCssFile: "删除 *.css 文件",
@@ -8,5 +8,5 @@ module.exports = {
     renameCconbExtensionToBin: "改为 .cconb.bin",
     noRenameCconbExtension: "不修改",
   },
-  description: "适用于 Rax Web 项目的发布构建处理流程",
+  description: "适用于 O2 平台 的 Web + Assets 项目的发布构建处理流程",
 };

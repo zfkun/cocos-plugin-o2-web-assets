@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Rax Web Project Build Plugin",
+  title: "O2 Platform Web And Assets Project Build Plugin",
   options: {
     removeHtmlFile: "Delete *.html files",
     removeCssFile: "Delete *.css files",
@@ -8,5 +8,5 @@ module.exports = {
     renameCconbExtensionToBin: "Rename to .cconb.bin",
     noRenameCconbExtension: "No",
   },
-  description: "Rax Web Project Build Plugin",
+  description: "O2 Platform Web And Assets Project Build Plugin",
 };

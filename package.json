@@ -1,11 +1,23 @@
 {
     "name": "o2-web-assets",
     "title": "i18n:o2-web-assets.title",
+    "description": "i18n:o2-web-assets.description",
     "package_version": 2,
     "version": "1.0.0",
     "author": "zfkun",
-    "description": "i18n:o2-web-assets.description",
     "license": "ISC",
+    "keywords": [
+        "o2",
+        "web",
+        "assets",
+        "plugin",
+        "cocos",
+        "cocos creator"
+    ],
+    "files": [
+        "dist",
+        "CHANGELOG.md"
+    ],
     "contributions": {
         "builder": "./dist/builder.js"
     },
@@ -21,5 +33,9 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/zfkun/cocos-plugin-o2-web-assets.git"
+    },
+    "publicConfig": {
+        "registry": "https://registry.npmjs.org",
+        "access": "public"
     }
 }
